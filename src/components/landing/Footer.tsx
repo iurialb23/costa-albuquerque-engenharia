@@ -22,8 +22,7 @@ export function Footer() {
             </div>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/70">
               Engenharia sob demanda para indústrias, plantas fabris e
-              integradoras. Projetos pontuais, especialistas multidisciplinares
-              e padrão técnico ABNT NBR / ISO.
+              integradoras. Projetos pontuais com padrão técnico ABNT NBR / ISO.
             </p>
           </div>
 
@@ -86,7 +85,6 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} {COMPANY.name}. Todos os direitos reservados.</p>
-          <p>CNPJ: 00.000.000/0000-00 (placeholder)</p>
         </div>
       </div>
     </footer>

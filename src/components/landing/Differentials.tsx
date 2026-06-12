@@ -38,8 +38,8 @@ export function Differentials() {
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
               Um modelo pensado para indústrias e integradoras que precisam de
-              capacidade técnica de ponta — exatamente quando e como o projeto
-              exige.
+              capacidade técnica de alto nível, exatamente quando e como o
+              projeto exige.
             </p>
           </div>
         </Reveal>

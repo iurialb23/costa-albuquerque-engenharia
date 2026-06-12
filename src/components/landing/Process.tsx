@@ -14,7 +14,7 @@ const STEPS = [
   {
     n: "03",
     title: "Execução do projeto",
-    text: "Time multidisciplinar trabalha conforme normas ABNT NBR e ISO, com marcos de validação acordados.",
+    text: "Equipe dedicada trabalha conforme normas ABNT NBR e ISO, com marcos de validação acordados.",
   },
   {
     n: "04",

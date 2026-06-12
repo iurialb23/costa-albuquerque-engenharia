@@ -34,9 +34,9 @@ export function Hero() {
 
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
             Entregamos projetos pontuais para indústrias, plantas fabris e
-            integradoras — sem que sua empresa precise manter uma equipe de
-            engenharia interna. Flexibilidade, especialistas multidisciplinares
-            e padrão técnico em cada entrega.
+            integradoras, sem que sua empresa precise manter equipe de
+            engenharia interna. Especialistas multidisciplinares e padrão
+            técnico rigoroso em cada entrega.
           </p>
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">

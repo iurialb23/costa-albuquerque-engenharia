@@ -6,19 +6,19 @@
 // TODO: cole aqui a URL do seu "Horários de atendimento" do Google Calendar
 // (Appointment Schedule). Ex.: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ..."
 // Deixe vazio ("") para exibir o placeholder no modal.
-export const GOOGLE_APPOINTMENT_URL = "";
+export const GOOGLE_APPOINTMENT_URL = "https://calendar.app.google/CeCt8v98TSQ2Q8j47";
 
 export const COMPANY = {
   name: "Costa Albuquerque Engenharia",
   shortName: "Costa Albuquerque",
   tagline: "Engenharia sob demanda",
-  email: "contato@costaalbuquerque.eng.br",   // placeholder
-  phone: "+55 (00) 00000-0000",                // placeholder
-  whatsapp: "https://wa.me/5500000000000",     // placeholder
-  address: "Sua cidade — Brasil",              // placeholder
+  email: "contato@costaalbuquerque.com.br",
+  phone: "+55 (71) 99606-8126",
+  whatsapp: "https://wa.me/5571996068126",
+  address: "Salvador, Bahia — Brasil",
   social: {
-    linkedin: "#",                              // placeholder
-    instagram: "#",                             // placeholder
+    linkedin: "#",
+    instagram: "#",
   },
 };
 

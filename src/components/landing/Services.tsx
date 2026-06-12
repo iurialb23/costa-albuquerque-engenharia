@@ -60,8 +60,8 @@ export function Services() {
               Capacidade técnica completa, sob um único contrato.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
-              Sete frentes de engenharia para responder ao que sua planta precisa
-              — do diagnóstico ao projeto executivo entregue.
+              Sete frentes de engenharia para atender o que sua operação exige,
+              do primeiro levantamento ao projeto executivo.
             </p>
           </div>
         </Reveal>

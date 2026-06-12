@@ -24,15 +24,15 @@ export function About() {
           <Reveal delay={80}>
             <p className="text-base leading-relaxed text-white/85 md:text-lg">
               A <strong>Costa Albuquerque Engenharia</strong> nasceu para
-              entregar capacidade técnica de ponta para empresas que precisam
-              de projetos pontuais — sem o custo e a complexidade de manter um
-              time de engenharia próprio. Atendemos indústrias, plantas fabris,
-              empresas de manutenção e integradoras com projetos executivos,
-              dimensionamentos, virtualização de plantas e documentação técnica.
+              atender empresas que precisam de projetos de engenharia pontuais,
+              sem estruturar um time técnico próprio. Atendemos indústrias,
+              plantas fabris, empresas de manutenção e integradoras com projetos
+              executivos, dimensionamentos, virtualização de plantas e
+              documentação técnica.
             </p>
             <p className="mt-5 text-base leading-relaxed text-white/85 md:text-lg">
-              Cada entrega segue rigorosamente as normas técnicas vigentes —{" "}
-              <strong>ABNT NBR</strong> e <strong>ISO</strong> — para garantir
+              Cada entrega segue rigorosamente as normas técnicas vigentes,{" "}
+              <strong>ABNT NBR</strong> e <strong>ISO</strong>, para garantir
               segurança, conformidade e padrão de qualidade reconhecido.
             </p>
           </Reveal>
