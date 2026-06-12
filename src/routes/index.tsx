@@ -1,29 +1,45 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Toaster } from "@/components/ui/sonner";
+import { SchedulingProvider } from "@/hooks/use-scheduling";
+import { Header } from "@/components/landing/Header";
+import { Hero } from "@/components/landing/Hero";
+import { Differentials } from "@/components/landing/Differentials";
+import { Services } from "@/components/landing/Services";
+import { Process } from "@/components/landing/Process";
+import { About } from "@/components/landing/About";
+import { FinalCTA } from "@/components/landing/FinalCTA";
+import { Footer } from "@/components/landing/Footer";
+import { SchedulingModal } from "@/components/landing/SchedulingModal";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Costa Albuquerque Engenharia | Engenharia sob demanda" },
+      { name: "description", content: "Projetos de engenharia sob demanda para indústrias, plantas fabris e integradoras. Refrigeração, mecânica, hidráulica, estrutura metálica e mais — sem custo fixo de equipe interna." },
+      { property: "og:title", content: "Costa Albuquerque Engenharia | Engenharia sob demanda" },
+      { property: "og:description", content: "Projetos de engenharia sob demanda para indústrias e plantas fabris, com padrão ABNT NBR e ISO." },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <SchedulingProvider>
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main>
+          <Hero />
+          <Differentials />
+          <Services />
+          <Process />
+          <About />
+          <FinalCTA />
+        </main>
+        <Footer />
+        <SchedulingModal />
+        <Toaster richColors position="top-right" />
+      </div>
+    </SchedulingProvider>
   );
 }
