@@ -29,14 +29,13 @@ export function Hero() {
 
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             Engenharia especializada para cada projeto,{" "}
-            <span className="text-accent">exatamente quando você precisa</span>.
+            <span className="text-accent">exatamente quando você precisa</span>
           </h1>
 
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
             Entregamos projetos pontuais para indústrias, plantas fabris e
-            integradoras, sem que sua empresa precise manter equipe de
-            engenharia interna. Especialistas multidisciplinares e padrão
-            técnico rigoroso em cada entrega.
+            integradoras. Especialistas multidisciplinares e padrão técnico
+            rigoroso em cada entrega.
           </p>
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">

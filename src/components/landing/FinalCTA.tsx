@@ -43,7 +43,7 @@ export function FinalCTA() {
             <div className="grid items-center gap-8 lg:grid-cols-12">
               <div className="lg:col-span-7">
                 <h2 className="font-display text-3xl font-bold leading-tight md:text-5xl">
-                  Vamos discutir o seu próximo projeto.
+                  Vamos discutir o seu próximo projeto
                 </h2>
                 <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85 md:text-lg">
                   Agende uma reunião com nosso time técnico — sem compromisso.

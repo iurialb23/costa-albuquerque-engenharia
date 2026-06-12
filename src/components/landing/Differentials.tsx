@@ -30,11 +30,8 @@ export function Differentials() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <Reveal>
           <div className="max-w-2xl">
-            <span className="text-xs font-semibold uppercase tracking-[0.18em] text-accent">
-              O diferencial
-            </span>
-            <h2 className="mt-4 font-display text-3xl font-bold text-primary md:text-5xl">
-              Engenharia sob demanda, sem time interno.
+            <h2 className="font-display text-3xl font-bold text-primary md:text-5xl">
+              Projetos sob Demanda, atendimento prioritário
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
               Um modelo pensado para indústrias e integradoras que precisam de

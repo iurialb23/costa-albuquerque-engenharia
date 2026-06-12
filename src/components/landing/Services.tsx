@@ -57,7 +57,7 @@ export function Services() {
               Serviços
             </span>
             <h2 className="mt-4 font-display text-3xl font-bold text-primary md:text-5xl">
-              Capacidade técnica completa, sob um único contrato.
+              Capacidade técnica completa, sob um único contrato
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground md:text-lg">
               Sete frentes de engenharia para atender o que sua operação exige,

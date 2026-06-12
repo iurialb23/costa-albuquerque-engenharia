@@ -33,7 +33,7 @@ export function Process() {
               Como funciona
             </span>
             <h2 className="mt-4 font-display text-3xl font-bold text-primary md:text-5xl">
-              Um processo claro, do diagnóstico à entrega.
+              Um processo claro, do diagnóstico à entrega
             </h2>
           </div>
         </Reveal>
